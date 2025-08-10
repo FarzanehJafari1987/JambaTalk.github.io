@@ -258,12 +258,10 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-<!--           <h1 class="title is-1 publication-title">ACM MM 2023</h1> -->
           <h1 class="title is-1 publication-title">JambaTalk: Speech-driven 3D Talking Head Generation based on Hybrid Transformer-Mamba Model</h1>
           
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-<!--               <a href="https://ziqiaopeng.github.io/">Ziqiao Peng</a><sup>1</sup>, -->
             </span>
             <span class="author-block">
               <strong>Farzaneh Jafari</strong><sup>1</sup>,
@@ -275,15 +273,6 @@
               <strong>Anup Basu</strong><sup>1</sup>,
             </span>
             <br>
-<!--             <span class="author-block">
-              <a href="https://www.sem.tsinghua.edu.cn/info/1189/32080.htm">Hongyan Liu</a><sup>6</sup>,
-            </span>
-            <span class="author-block">
-              <a href="http://info.ruc.edu.cn/jsky/rtjs/d696a551fefc4b0ab6f90e02b01f3529.htm">Jun He</a><sup>1</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://fanzhaoxin666.github.io/">Zhaoxin Fan</a><sup>1,3</sup>
-            </span> -->
           </div>
 
           <div class="is-size-6 publication-authors" style="margin-top: 1rem;">
@@ -353,61 +342,35 @@
             made to refine lip-sync motion, capture expressive facial expressions, generate natural head poses, and achieve high
             video quality. However, no single model has yet achieved equivalence across all these metrics. This paper aims to 
             animate a 3D face using Jamba, a hybrid Transformer-Mamba model. Mamba, a pioneering Structured State Space Model (SSM) 
-            architecture, was developed to overcome the limitations of conventional Transformer architectures, particularly in handling
+            architecture was developed to overcome the limitations of conventional Transformer architectures, particularly in handling
             long sequences. This challenge has constrained traditional models. Jamba merges the advantages of both the Transformer and 
             Mamba approaches, providing a holistic solution. Based on the foundational Jamba block, we present JambaTalk to enhance motion 
-            variety and speed through multimodal integration. Extensive experiments reveal that our method achieves performance comparable 
+            variety and speed through multimodal integration. Extensive experiments reveal that our method achieves performance comparable to 
             or superior to state-of-the-art models.
-            
-<!--             Speech-driven 3D face animation technique, extending its applications to various multimedia fields.
-            Previous research has generated promising realistic lip movements and facial expressions from audio signals.
-            However, traditional regression models solely driven by data face several essential problems, such as difficulties 
-            in accessing precise labels and domain gaps between different modalities, leading to unsatisfactory results lacking precision and coherence.
-          </p>
-          <p>
-            To enhance the visual accuracy of generated lip movement while reducing the dependence on labeled data, we propose a novel framework <strong>SelfTalk</strong>, by involving self-supervision in a cross-modals network system to learn 3D talking faces.
-            The framework constructs a network system consisting of three modules: facial animator, speech recognizer, and lip-reading interpreter. 
-            The core of JambaTalk is a commutative training diagram that facilitates compatible features exchange among audio, text, and lip shape, enabling our models to learn the intricate connection between these factors. The proposed framework leverages the knowledge learned from the lip-reading interpreter to generate more plausible lip shapes.
-          </p>
-          <p>
-            Extensive experiments and user studies demonstrate that our proposed approach achieves state-of-the-art performance both qualitatively and quantitatively. -->
           </p>
         </div>
       </div>
     </div>
     
-    <div class="columns is-centered has-text-centered" style="margin-top: 3rem;">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Proposed Method</h2>
-        <div class="content has-text-justified">
-          <div style="background: linear-gradient(135deg, #f5f7fa, #c3cfe2); padding: 2rem; border-radius: 15px; margin: 2rem 0;">
-            <div style="background: white; padding: 2rem; border-radius: 10px; text-align: center;">
-              <div style="font-size: 3rem; margin-bottom: 1rem;">🎭</div>
-<!--               <h4 style="color: #667eea; margin-bottom: 1rem;">Commutative Training Diagram</h4> -->
-              <div style="display: flex; justify-content: space-around; flex-wrap: wrap; margin: 2rem 0;">
-                <div style="margin: 1rem; text-align: center;">
-<!--                   <div style="width: 100px; height: 100px; border-radius: 50%; background: linear-gradient(135deg, #667eea, #764ba2); display: flex; align-items: center; justify-content: center; margin: 0 auto 0.5rem; color: white; font-weight: bold;">Audio</div> -->
-                  <span class="svg-inline">A</span>
-                </div>
-                <div style="margin: 1rem; text-align: center;">
-<!--                   <div style="width: 100px; height: 100px; border-radius: 50%; background: linear-gradient(135deg, #f093fb, #f5576c); display: flex; align-items: center; justify-content: center; margin: 0 auto 0.5rem; color: white; font-weight: bold;">Face</div> -->
-                  <span class="svg-inline">Y</span>
-                </div>
-                <div style="margin: 1rem; text-align: center;">
-<!--                   <div style="width: 100px; height: 100px; border-radius: 50%; background: linear-gradient(135deg, #4facfe, #00f2fe); display: flex; align-items: center; justify-content: center; margin: 0 auto 0.5rem; color: white; font-weight: bold;">Text</div> -->
-                  <span class="svg-inline">S</span>
-                </div>
-              </div>
+<div class="columns is-centered has-text-centered" style="margin-top: 3rem;">
+  <div class="column is-four-fifths">
+    <h2 class="title is-3">Proposed Method</h2>
+    <div class="content has-text-justified">
+      <div style="background: linear-gradient(135deg, #f5f7fa, #c3cfe2); padding: 2rem; border-radius: 15px; margin: 2rem 0;">
+        <div style="background: white; padding: 2rem; border-radius: 10px; text-align: center;">
+          <div style="font-size: 3rem; margin-bottom: 1rem;">🎭</div>
+          <div style="display: flex; justify-content: center; flex-wrap: wrap; margin: 2rem 0;">
+            <div style="margin: 1rem; text-align: center;">
+              <span class="svg-inline">A</span>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
           
           <p style="margin-top: 2rem;">
-<!--             Overview of the proposed SelfTalk. We constructed a commutative training diagram consisting of three modules: facial animator, 
-            speech recognizer, and lip-reading interpreter. Specifically, given an input audio signal <span class="svg-inline">A</span>, the facial animator 
-            module extracts the corresponding facial animation <span class="svg-inline">Y</span>, which constitutes the core component of our framework.
-            The speech recognizer, on the other hand, is capable of producing the corresponding text <span class="svg-inline">S</span> and utilizing it as a 
-            ground truth label for supervision. Lastly, the lip-reading interpreter interprets lip movements, produces a text distribution 
-            and establishes a constraint using the label from <span class="svg-inline">E</span>. -->
           </p>
         </div>
       </div>
@@ -415,19 +378,19 @@
   </div>
 </section>
 
-<!-- <section class="section" id="BibTeX">
+<section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@inproceedings{peng2023selftalk,
-  title={SelfTalk: A Self-Supervised Commutative Training Diagram to Comprehend 3D Talking Faces}, 
-  author={Ziqiao Peng and Yihao Luo and Yue Shi and Hao Xu and Xiangyu Zhu and Hongyan Liu and Jun He and Zhaoxin Fan},
-  booktitle={Proceedings of the 31st ACM International Conference on Multimedia},
-  pages = {5292–5301},
-  doi = {10.1145/3581783.3611734},
-  year={2023}
+    <pre><code>@inproceedings{jafari2025jambatalk,
+  title={JambaTalk: Speech-driven 3D Talking Head Generation based on Hybrid Transformer-Mamba Model}, 
+  author={Farzaneh Jafari and Stefano Berretti and Anup Basu},
+  booktitle={},
+  pages = {},
+  doi = {},
+  year={2025}
 }</code></pre>
   </div>
-</section> -->
+</section>
 
 <footer class="footer">
   <div class="container">
@@ -446,7 +409,6 @@
             © 2025 JambaTalk Research Project. All rights reserved.</a>
           </p>
           <p style="text-align:center;">
-<!--             Website source code based on the <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a> project page. -->
           </p>
         </div>
       </div>
@@ -455,7 +417,7 @@
 </footer>
 
 <script>
-// Smooth scrolling for anchor links
+// Smooth scrolling for the anchor links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
