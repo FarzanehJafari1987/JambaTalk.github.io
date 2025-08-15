@@ -291,7 +291,8 @@
                 </a>
               </span>
               <span class="link-block">
-                <a src="https://www.youtube.com/embed/CCv5sVD2z9U" class="external-link button is-normal is-rounded" target="_blank" rel="noopener">
+                <!-- Fixed: use href instead of src -->
+                <a href="https://youtu.be/CCv5sVD2z9U" class="external-link button is-normal is-rounded" target="_blank" rel="noopener">
                   <span class="icon">
                     <i class="fab fa-youtube"></i>
                   </span>
@@ -308,25 +309,26 @@
               </span>
             </div>
           </div>
-
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body" style="text-align: center;">
-      <iframe id="teaser"
-        width="100%" height="450"
-        src="https://www.youtube.com/embed/CCv5sVD2z9U?autoplay=1&loop=1&playlist=oJu-LZhFzDE&mute=1"
-        title="JambaTalk Demo Video"
-        frameborder="0"
-        allow="autoplay; encrypted-media; picture-in-picture"
-        allowfullscreen
-        style="border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
-      </iframe>
-      <h2 class="subtitle has-text-centered">
-        <strong>JambaTalk</strong> leverages its hybrid architecture to provide an adaptable and scalable solution for generating high-quality 3D facial animations across various speakers and scenarios.
-      </h2>
-    </div>
-  </div>
-</section>
+          
+          <section class="hero teaser">
+            <div class="container is-max-desktop">
+              <div class="hero-body" style="text-align: center;">
+                <!-- Fixed: embed link format & playlist for looping -->
+                <iframe id="teaser"
+                  width="100%" height="450"
+                  src="https://www.youtube.com/embed/CCv5sVD2z9U?autoplay=1&loop=1&playlist=CCv5sVD2z9U&mute=1"
+                  title="JambaTalk Demo Video"
+                  frameborder="0"
+                  allow="autoplay; encrypted-media; picture-in-picture"
+                  allowfullscreen
+                  style="border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
+                </iframe>
+                <h2 class="subtitle has-text-centered">
+                  <strong>JambaTalk</strong> leverages its hybrid architecture to provide an adaptable and scalable solution for generating high-quality 3D facial animations across various speakers and scenarios.
+                </h2>
+              </div>
+            </div>
+          </section>
 
 <section class="section">
   <div class="container is-max-desktop">
